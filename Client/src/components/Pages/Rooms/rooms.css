@@ -1,0 +1,54 @@
+/* title */
+h4 {
+    font-size: 2em;
+    line-height: 1.25;
+    margin-bottom: 3em;
+  }
+
+  .linediv {
+    width: 10rem;
+    height: 5px;
+    background:rgb(150, 133, 111);
+    margin: 0.2rem auto;
+  }
+
+  /*rooms */
+  .rooms {
+    padding: 5rem 0;
+    text-align: center;
+  }
+  .rooms-center {
+    width: 80vw;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-row-gap: 4rem;
+    grid-column-gap: 40px;
+  
+  }
+
+  @media screen and (min-width: 992px) {
+    .rooms-center {
+      width: 95vw;
+      max-width: 1170px;
+    }}
+
+     /* button */
+  .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background:rgb(150, 133, 111);
+    padding: 0.4rem 0.9rem;
+    border: 3px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: white;
+    border: 3px solid rgb(150, 133, 111);
+  }
+  

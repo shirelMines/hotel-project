@@ -1,0 +1,54 @@
+.banner {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    padding: 2rem 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing:normal;
+    margin-top:2rem;
+  }
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-top: 1.2rem;
+  }
+  .banner div {
+    width: 10rem;
+    height: 5px;
+    background:white;
+    margin: 1.5rem auto;
+  }
+  .banner p {
+    font-size: 1.5rem;
+    word-wrap:break-word;
+    margin-bottom: 2rem;
+    letter-spacing:normal;
+    
+  }
+
+  @media screen and (min-width: 900px) {
+    .banner {
+      padding: 0.6rem 6rem;
+    }
+    .banner h1 {
+      font-size: 4rem;
+    }
+  }
+
+  /* button */
+  .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background:rgb(150, 133, 111);
+    padding: 0;
+    border: 3px solid black;
+    transition: --mainTransition;
+    text-transform: uppercase;
+    
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: white;
+    border: 3px solid rgb(150, 133, 111);
+  }

@@ -1,0 +1,91 @@
+
+.img-container {
+    position: relative;
+
+  }
+  .img-container img {
+    width: 304px;
+    height: 200px;
+    display: block;
+  }
+
+  .room {
+    box-shadow: grey 3px 3px;
+    width:19rem;
+    align-items: center;
+  }
+  .room:hover {
+    box-shadow: rgb(49, 49, 49) 3px 3px;
+  }
+
+  .price-top {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    border-bottom-right-radius: 2.5rem;
+    font-size: 0.5rem;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+
+    
+  }
+  .price-top h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing:normal;
+  }
+
+  .price-top p {
+    font-size: 0.7rem;
+  }
+
+  .room-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0);
+    transition: all 0.3s linear;
+  }
+
+  .img-container:hover {
+    background: rgba(0, 0, 0, 0.8);
+
+  }
+  .img-container:hover img {
+    opacity: 0.3;
+    }
+
+  .img-container:hover .price-top {
+    opacity: 0;
+  }
+  .img-container:hover .room-link {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .room-info {
+    background: darkGrey;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing:normal;
+  }
+
+  /* button */
+  .btn-primary {
+    text-decoration: none;
+    color: black;
+    background:rgb(150, 133, 111);
+    padding: 0.4rem 0.9rem;
+    border: 3px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: rgb(150, 133, 111);
+    border: 3px solid rgb(150, 133, 111);
+  }

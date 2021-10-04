@@ -1,0 +1,16 @@
+
+.defaultStyle
+ {
+  min-height: calc(110vh - 20px);
+  background: url("/src/house1.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsStyle{
+  background: url("/src/rooms6.jpg") center/cover no-repeat;
+  min-height: 75vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
